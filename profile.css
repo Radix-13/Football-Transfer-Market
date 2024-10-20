@@ -1,0 +1,133 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.player-info-container{
+    text-align: center;
+}
+/* Unordered list styles */
+.player-info-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.player-info-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Strong text for labels */
+.player-info-list li strong {
+    color: #555;
+    font-weight: bold;
+}
+
+/* Hover effect */
+.player-info-list li:hover {
+    background-color: #e3e7f1;
+}
+
+
+nav {
+    background-color: #333; /* Background color for the nav */
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align items horizontally */
+    gap: 20px; /* Space between items */
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline; /* Make sure the list items are inline */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Link color */
+    padding: 20px 20px;
+    background-color: #555; /* Background color for links */
+
+}
+
+nav ul li a:hover {
+    background-color: #777; /* Change background color on hover */
+}
+
+.logout{
+    background-color: #a81d1d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.logout:hover {
+    background-color: #610a0a;
+}
+
+
+/* 
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+} */
+
+input[type="text"], select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.update {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}

@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+    font-size: 2.2rem;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #2980b9;
+    color: white;
+}
+
+thead th {
+    padding: 12px;
+    font-size: 1.1rem;
+    text-align: left;
+    letter-spacing: 0.05rem;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f4f7f9;
+}
+
+tbody tr:hover {
+    background-color: #d3e6f2;
+}
+
+tbody td {
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody td:last-child {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-top: 40px;
+}
+
+nav {
+    background-color: #333; /* Background color for the nav */
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align items horizontally */
+    gap: 20px; /* Space between items */
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline; /* Make sure the list items are inline */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Link color */
+    padding: 20px 20px;
+    background-color: #555; /* Background color for links */
+
+}
+
+nav ul li a:hover {
+    background-color: #777; /* Change background color on hover */
+}
+
+.logout{
+    background-color: #a81d1d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.logout:hover {
+    background-color: #610a0a;
+}
