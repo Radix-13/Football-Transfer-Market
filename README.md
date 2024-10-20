@@ -1,1 +1,3 @@
 # Football-Transfer-Market
+Welcome to the Football Transfer Market! This project was developed by me and my group to create an interactive platform where football players and club managers can engage in transfer negotiations. The system allows players to view offers from different clubs, while club managers can bid on available players. With separate dashboards for players and managers, the website simulates a real-world transfer market, providing a dynamic and competitive environment for football enthusiasts.
+This project showcases our skills in PHP, SQL, JavaScript, HTML, and CSS, and highlights our passion for  football.
